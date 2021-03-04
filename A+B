@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+ main()
+{
+    int a,b;
+    int res;
+    printf("Enter two numbers:");
+    scanf("%d %d",&a,&b);
+    res=a+b;
+    printf("The answer is %d",res);
+
+
+    return 0;
+}
