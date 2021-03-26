@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main ()
+{
+  int n,i,F1=1,F2=1,Upterm,sum=0;
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+  //printf("%d", F1);
+  sum = sum + F1;
+  Upterm = F1 + F2;
+  F1=F2;
+  F2 = Upterm;
+  }
+  printf("%d",sum);
+
+}
